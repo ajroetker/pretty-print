@@ -3,6 +3,14 @@ name = "pretty-print"
 version = "0.1.0"
 authors = ["A.J. Roetker <ajroetker@gmail.com>"]
 
+[lib]
+name = "prettifier"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pretty-print"
+path = "src/main.rs"
+
 [dependencies]
 docopt = "0.6.*"
 serde = "0.7.*"
